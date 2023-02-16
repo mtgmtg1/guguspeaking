@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "576758613365",
+    "project_id": "ttspeaking-376f0",
+    "storage_bucket": "ttspeaking-376f0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:576758613365:android:c9775547641b046e893f3c",
+        "android_client_info": {
+          "package_name": "com.mycompany.ttspeaking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "576758613365-qh22psc5nfsom9uuvke5prqfvlauvmvl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mycompany.ttspeaking",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "576758613365-dvlup5u35tntr3lg3l2qok7hd2muruil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcMWT4WHQHxANV1IN2X0r_-pcPpYsSECw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "576758613365-dvlup5u35tntr3lg3l2qok7hd2muruil.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "576758613365-sdav7vijk1h79m2440a91ia0o3ck570i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.mycompany.ttspeaking"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
