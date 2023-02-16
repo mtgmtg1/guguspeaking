@@ -201,7 +201,7 @@ class _FreeSpeakWidgetState extends State<FreeSpeakWidget>
                         'https://filesamples.com/samples/audio/mp3/sample3.mp3',
                       ),
                       metas: Metas(
-                        id: 'sample3.mp3-8vofbjq1',
+                        id: 'sample3.mp3-n4dkuz8f',
                         title: valueOrDefault<String>(
                           widget.docu!.title,
                           '제목',
@@ -238,11 +238,11 @@ class _FreeSpeakWidgetState extends State<FreeSpeakWidget>
                   color: FlutterFlowTheme.of(context).secondaryBackground,
                 ),
                 child: Container(
-                  width: MediaQuery.of(context).size.width * 0.55,
-                  height: MediaQuery.of(context).size.height * 0.25,
+                  width: MediaQuery.of(context).size.width,
+                  height: MediaQuery.of(context).size.height * 1,
                   child: custom_widgets.SoundRecordAndPlay(
-                    width: MediaQuery.of(context).size.width * 0.55,
-                    height: MediaQuery.of(context).size.height * 0.25,
+                    width: MediaQuery.of(context).size.width,
+                    height: MediaQuery.of(context).size.height * 1,
                   ),
                 ),
               ),
