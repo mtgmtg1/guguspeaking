@@ -2814,7 +2814,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Miscellaneous
   {
-    '5n3lhyzi': {
+    'a042vxe4': {
       'ko': '권한 이용에 동의해주세요.',
       'en': '',
       'fr': '',
@@ -2824,7 +2824,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'vi': '',
       'zh_Hans': '',
     },
-    'gfwxqeiy': {
+    'qntfmr1c': {
       'ko': '권한 이용에 동의해주세요.',
       'en': '',
       'fr': '',

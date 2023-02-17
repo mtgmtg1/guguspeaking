@@ -4,7 +4,6 @@ import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/random_data_util.dart' as random_data;
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'learnlist_model.dart';
@@ -26,11 +25,6 @@ class _LearnlistWidgetState extends State<LearnlistWidget> {
   void initState() {
     super.initState();
     _model = createModel(context, () => LearnlistModel());
-
-    // On page load action.
-    SchedulerBinding.instance.addPostFrameCallback((_) async {
-      context.pushNamed('freeSpeak');
-    });
 
     _model.textController ??= TextEditingController();
     WidgetsBinding.instance.addPostFrameCallback((_) => setState(() {}));
